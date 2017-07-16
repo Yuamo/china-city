@@ -8,7 +8,8 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-![这里写图片描述](https://github.com/Yuamo/china-city/tree/master/src/assets/1.png)
-![这里写图片描述](https://github.com/Yuamo/china-city/tree/master/src/assets/2.png)
+![image](https://github.com/Yuamo/china-city/tree/master/src/assets/1.png)
+![image](https://github.com/Yuamo/china-city/tree/master/src/assets/2.png)
+![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
 
 
