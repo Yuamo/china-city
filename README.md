@@ -7,7 +7,7 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
+<img width="500" src="/src/assets/1.png" alt="vue">
 ![image](https://github.com/Yuamo/china-city/tree/master/src/assets/1.png)
 ![image](https://github.com/Yuamo/china-city/tree/master/src/assets/2.png)
 ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
