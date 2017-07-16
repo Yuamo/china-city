@@ -3,8 +3,8 @@
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
   
-    <select v-model="selected" v-if="provinceL">
-      <option disabled value="请选择省份">请选择省份</option>
+    <select v-model="selected" autofocus v-if="provinceL">
+      <option disabled value="请选择城市">请选择城市</option>
       <option v-for="(item,index) in provinceL" :value="item">{{item.name}}</option>
     </select>
     <select v-model="citySelected" v-if="cityL">
@@ -42,6 +42,8 @@ export default {
   watch: {
     selected: function () {
       console.log(this.selected)
+      // 清除区县
+      this.citySelected = {}
       this.cityL = city.filter((item) => item.parentId === this.selected.code)
     },
     citySelected: function () {
